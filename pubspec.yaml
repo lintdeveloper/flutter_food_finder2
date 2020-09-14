@@ -1,0 +1,40 @@
+name: food_finder
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+  geolocator: ^6.0.0+4
+  http: ^0.12.0+2
+  flutter_spinkit: ^4.1.2+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/
+
+  fonts:
+    - family: Muli
+      fonts:
+        - asset: fonts/muli/Muli.ttf
+        - asset: fonts/muli/Muli-Bold.ttf
+          weight: 700
+        - asset: fonts/muli/Muli-Light.ttf
+          weight: 300
